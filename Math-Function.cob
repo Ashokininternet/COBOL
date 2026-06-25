@@ -28,4 +28,5 @@
            display "The answer to div is " ans
            divide num1 into num2 giving ans remainder ans-rem
            display "The answer to remainder is " ans-rem
+           *> or use compute with +,-,*,/,
            stop run.
