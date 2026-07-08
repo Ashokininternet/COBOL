@@ -1,4 +1,4 @@
-       >>SOURCE FORMAT FREE       
+       >>SOURCE FORMAT FREE
        identification division.
        program-id. coboltut.
        author. Ashok.
@@ -20,9 +20,9 @@
 
 
        procedure division.
-       display User_name.
-       display "What is your name: " with no advancing
-       accept User_name 
-       DISPLAY "Hello " User_name
+           display User_name.
+           display "What is your name: " with no advancing
+           accept User_name
+           DISPLAY "Hello " User_name
 
-       stop run.
+           stop run.

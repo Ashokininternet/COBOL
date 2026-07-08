@@ -4,7 +4,7 @@
        author. Ashok.
        date-written. Jun 24 2026.
        environment division.
-       
+
        data division.
        file section.
        working-storage section.
@@ -22,14 +22,14 @@
        01 Ans pic s99v99 value 0.
        01 Rem pic 9v99.
        procedure division.
-       display "Hello world"
-       move zero to sampledata
-       move space to sampledata
-       display sampledata
-       move high-value to sampledata
-       display sampledata
-       move low-value to sampledata
-       display sampledata
-       move all "2" to sampledata
-       display sampledata
+           display "Hello world"
+           move zero to sampledata
+           move space to sampledata
+           display sampledata
+           move high-value to sampledata
+           display sampledata
+           move low-value to sampledata
+           display sampledata
+           move all "2" to sampledata
+           display sampledata
            stop run.
