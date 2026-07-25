@@ -18,4 +18,6 @@
            ELSE
              DISPLAY "You cant vote"
            END-IF
+           IF AGE = 5
+             DISPLAY "Go home kid"
            STOP RUN.
